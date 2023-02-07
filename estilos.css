@@ -3,6 +3,9 @@ header{
     padding: 20px 0;
    
 }
+main{
+    background:violet;
+}
 
 .caja{
     width: 940px;
@@ -62,6 +65,56 @@ nav a:hover{
 .productos li:active{
     border-color: #088c19;
 }
+.perfil{
+    background: gainsboro;
+    background-size: 100%;
+    opacity: 60%;
+    transition: 1.4s;
+}
+.perfil:hover{
+    opacity: 1;
+    background:blue;
+    color: #c78c19;
+    scale: 1.1;
+}
+.estudios{
+    background: gainsboro;
+    background-size: 100%;
+    opacity: 60%;
+    transition: 1.4s;
+}
+.estudios:hover{
+    opacity: 1;
+    background:blue;
+    color: #c78c19;
+    scale: 1.1;
+}
+.contacto{
+    background: gainsboro;
+    background-size: 100%;
+    opacity: 60%;
+    transition: 1.4s;
+}
+.contacto:hover{
+    opacity: 1;
+    background:blue;
+    color: #c78c19;
+    scale: 1.1;
+}
+.experiencia{
+    background: gainsboro;
+    background-size: 100%;
+    opacity: 60%;
+    transition: 1.4s;
+}
+.experiencia:hover{
+    opacity: 1;
+    background:blue;
+    color: #c78c19;
+    scale: 1.1;
+}
+
+
 .productos h2{
     font-size: 20px;
     font-weight: bold;
@@ -131,7 +184,7 @@ footer{
     font-size: 30px;
     font-weight: bold;
 }
-.contacos li:hover h2{
+.contactos li:hover h2{
     font-size: 33px;
 }
 .descripcion{
