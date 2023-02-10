@@ -1,10 +1,5 @@
-header{
-    background-color: #bbbbbb;
-    padding: 20px 0;
-   
-}
-main{
-    background:violet;
+body{
+    background: linear-gradient(green,yellow,white);
 }
 
 .caja{
@@ -44,7 +39,7 @@ nav a:hover{
     text-transform: uppercase;
     color:black;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     text-decoration: none;
 }
 .productos li{
@@ -56,64 +51,20 @@ nav a:hover{
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid black;
-   border-radius: 10px;
+    border-radius: 10px;
+    background: gainsboro;
+    opacity: 60%;
+    transition: 1.4s;
+    
 
 }
 .productos li:hover{
     border-color: #c78c19;
-}
-.productos li:active{
-    border-color: #088c19;
-}
-.perfil{
-    background: gainsboro;
-    background-size: 100%;
-    opacity: 60%;
-    transition: 1.4s;
-}
-.perfil:hover{
     opacity: 1;
     background:blue;
     color: #c78c19;
     scale: 1.1;
 }
-.estudios{
-    background: gainsboro;
-    background-size: 100%;
-    opacity: 60%;
-    transition: 1.4s;
-}
-.estudios:hover{
-    opacity: 1;
-    background:blue;
-    color: #c78c19;
-    scale: 1.1;
-}
-.contacto{
-    background: gainsboro;
-    background-size: 100%;
-    opacity: 60%;
-    transition: 1.4s;
-}
-.contacto:hover{
-    opacity: 1;
-    background:blue;
-    color: #c78c19;
-    scale: 1.1;
-}
-.experiencia{
-    background: gainsboro;
-    background-size: 100%;
-    opacity: 60%;
-    transition: 1.4s;
-}
-.experiencia:hover{
-    opacity: 1;
-    background:blue;
-    color: #c78c19;
-    scale: 1.1;
-}
-
 
 .productos h2{
     font-size: 20px;
@@ -122,14 +73,8 @@ nav a:hover{
 .productos li:hover h2{
     font-size: 22px;
 }
-.descripcion{
-    font-size: 10px;
-}
-
-footer{
-    text-align: center;
-    background: url(imagenes/bg.jpg);
-    padding: 40px;
+.productos button{
+    align-items: center;
 }
 
 .inicio li{
@@ -147,8 +92,6 @@ footer{
     box-sizing: border-box;
     border: 2px solid black;
    border-radius: 10px;
-
-   
 
 }
 .contactos{
@@ -190,15 +133,22 @@ footer{
 .descripcion{
     font-size: 18px;
 }
-footer{
-    background-color: #bbbbbb;
-    padding: 20px 0;
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
-.pieDePagina{
-    
-    width: 940px;
-    position: relative;
-    margin: 0 auto;
- 
-   
+
+.links {
+    margin: 0;
+}
+
+.links li {
+    display: inline-block;
+    text-align: baseline;
+    padding: 0 20px 0 0;
+}
+
+.imagenes {
+    width: 100px;
 }

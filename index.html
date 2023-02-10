@@ -1,74 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
     <header>
-        
+
         <div class="caja">
-            
             <img src="imagenes/imagenPerfil.jpg">
-            
             <nav>
                 <ul>
                     <li><a href="inicio.html">Inicio</a></li>
-                    
+
                 </ul>
             </nav>
         </div>
     </header>
-
     <main>
         <ul class="productos">
-            <li class="perfil">
-                <h2 class="perfil-h2">perfil</h2>
-                <div hidden>
-                    <img src="">
-                    <p class="descripcion">nombre y apellido: jonmer arocha</p>
-                    <p class="descripcion">edad: 31 años</p>
-                    <p class="descripcion">pais de residencia: argentina</p>
-                    <p class="descripcion">nacionalidad: venezolano</p>
-                    <p class="descripcion"></p>
-                    <p class="descripcion"></p>
+            <li>
+               <button class="boton" onclick="botonPerfil()"><h2 class="perfil">perfil</h2></button>
+                <div hidden class="perfiljs">
+                    <p>nombre y apellido: jonmer arocha</p>
+                    <p>edad: 31 años</p>
+                    <p>pais de residencia: argentina</p>
+                    <p>nacionalidad: venezolano</p>
+                    <button  onclick="botonReverso()"><h2>volver</h2></button>
+                    
                 </div>
-                
             </li>
-            <li class="estudios">
-                <h2 class="estudios-h2">estudios</h2>
-                <div hidden><img src="">
-                    <p class="descripcion">bachiller en ciencias</p>
-                    <p class="descripcion">tecnico superior universitario</p>
-                    <p class="descripcion">ing en sistemas industriales</p>
+
+            
+            <li>
+                <h2>estudios</h2>
+                <div>
+                    <p>bachiller en ciencias</p>
+                    <p>tecnico superior universitario</p>
+                    <p>ing en sistemas industriales</p>
                 </div>
-                
+
             </li>
-            <li class="contacto">
-                <h2 class="contacto-h2">contacto</h2>
+            <li>
+                <h2>contacto</h2>
                 <div hidden><img src="imagenes/imagenEstudios.jpg">
-                    <p class="descripcion"><a href="contacto.html">Contactos</a></p>
+                    <p><a href="contacto.html">Contactos</a></p>
                 </div>
             </li>
-            <li class="experiencia">
-                <h2 class="experiencia-h2">experiencia</h2>
-               <div hidden> <img src="">
-                    <p class="descripcion">tecnico en refrigeracion</p>
-                    <p class="descripcion">tecnico en electronica</p>
-                    <p class="descripcion">tecnico oficial de rational</p>
+            <li>
+                <h2>experiencia</h2>
+                <div hidden> <img src="">
+                    <p>tecnico en refrigeracion</p>
+                    <p>tecnico en electronica</p>
+                    <p>tecnico oficial de rational</p>
                 </div>
             </li>
         </ul>
     </main>
     <footer>
-        <ul class="pieDePagina">
-            <img src="imagenes/imagenEstudios.jpg">
-            <p>este soy yo</p>
+        <ul class="links">
+            <li><img class="imagenes" src="imagenes/ticmas.png"></li>
+            <li><a href="https://github.com"><img class="imagenes" src="imagenes/git.jpg" alt="logo github"></a></li>
+            <li><a href="https://www.linkedin.com"><img class="imagenes"
+                          src="imagenes/linkedink2.jpg" alt="logo linkedink"></a></li>
+            <li>© Jonmer Luis Arocha</li>
         </ul>
     </footer>
+    <script src="script.js"></script>
 
-    
+
 </body>
+
 </html>
