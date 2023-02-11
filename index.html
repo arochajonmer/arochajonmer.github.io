@@ -9,20 +9,14 @@
 </head>
 
 <body>
-    <header>
+    <header class="caja" >
+        <img src="imagenes/ticmas.png">
+        <h1>JONMER LUIS AROCHA GONZALEZ</h1>
+        <h3>developer frontend training</h3>
 
-        <div class="caja">
-            <img src="imagenes/imagenPerfil.jpg">
-            <nav>
-                <ul>
-                    <li><a href="inicio.html">Inicio</a></li>
-
-                </ul>
-            </nav>
-        </div>
     </header>
     <main>
-        <ul class="productos">
+        <ul class="cuerpo">
             <li>
                <button class="boton" onclick="botonPerfil()"><h2 class="perfil">perfil</h2></button>
                 <div hidden class="perfiljs">
@@ -30,6 +24,7 @@
                     <p>edad: 31 años</p>
                     <p>pais de residencia: argentina</p>
                     <p>nacionalidad: venezolano</p>
+                    <p>email: arochajonmer @gmail.com</p>
                     <button  onclick="botonReverso()"><h2>volver</h2></button>
                     
                 </div>
@@ -37,33 +32,30 @@
 
             
             <li>
-                <h2>estudios</h2>
-                <div>
+                <button class="boton2" onclick="botonEstudios()"><h2 class="estudios">estudios</h2></button>
+                
+                <div hidden class="estudiosjs">
                     <p>bachiller en ciencias</p>
                     <p>tecnico superior universitario</p>
                     <p>ing en sistemas industriales</p>
+                    <button  onclick="botonReverso2()"><h2>volver</h2></button>
                 </div>
 
             </li>
+            
             <li>
-                <h2>contacto</h2>
-                <div hidden><img src="imagenes/imagenEstudios.jpg">
-                    <p><a href="contacto.html">Contactos</a></p>
-                </div>
-            </li>
-            <li>
-                <h2>experiencia</h2>
-                <div hidden> <img src="">
+                <button class="boton3" onclick="botonExperiencia()"><h2 class="experiencia">experiencia</h2></button>
+                <div hidden class="experienciajs" >
                     <p>tecnico en refrigeracion</p>
                     <p>tecnico en electronica</p>
                     <p>tecnico oficial de rational</p>
+                    <button  onclick="botonReverso3()"><h2>volver</h2></button>
                 </div>
             </li>
         </ul>
     </main>
     <footer>
         <ul class="links">
-            <li><img class="imagenes" src="imagenes/ticmas.png"></li>
             <li><a href="https://github.com"><img class="imagenes" src="imagenes/git.jpg" alt="logo github"></a></li>
             <li><a href="https://www.linkedin.com"><img class="imagenes"
                           src="imagenes/linkedink2.jpg" alt="logo linkedink"></a></li>

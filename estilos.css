@@ -1,88 +1,39 @@
 body{
-    background: linear-gradient(green,yellow,white);
+    background: linear-gradient(#feada6,#f5efef); 
 }
 
 .caja{
     width: 940px;
     position: relative;
     margin: 0 auto;
-    border-image:15px;
    
 }
-
-
-nav{
-    position: absolute;
-    top: 110px;
-    right: 0;
-}
-nav li{
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-nav a{
-    text-transform: uppercase;
-    color:black;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-}
-nav a:hover{
-    color: #c78c19 ;
-    text-decoration: underline;
-}
-.productos{
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px;
-    text-transform: uppercase;
-    color:black;
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: none;
-}
-.productos li{
-    display: inline-block;
-    text-align: center;
-    width: 20%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px solid black;
-    border-radius: 10px;
-    background: gainsboro;
-    opacity: 60%;
-    transition: 1.4s;
+.caja img{
+    width: 100px;
+   padding-left: 0%;
     
-
 }
-.productos li:hover{
-    border-color: #c78c19;
-    opacity: 1;
-    background:blue;
-    color: #c78c19;
-    scale: 1.1;
-}
-
-.productos h2{
-    font-size: 20px;
+.caja h1{
+    text-align: center;
+    font-size: 30px;
     font-weight: bold;
 }
-.productos li:hover h2{
+.caja h3{
+    text-align: center;
     font-size: 22px;
-}
-.productos button{
-    align-items: center;
-}
-
-.inicio li{
-    width: 940px;
-    position: relative;
-    margin: 0 auto;
-    font-size: 25px;
     font-weight: bold;
+}
+.cuerpo{
+    width: 940px;
+    margin: 0 auto;
+    padding: 150px;
+    text-transform: uppercase;
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+.cuerpo li{
     display: inline-block;
     text-align: center;
     width: 25%;
@@ -91,52 +42,42 @@ nav a:hover{
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid black;
-   border-radius: 10px;
+    border-radius: 10px;
+    background: gainsboro;
+    opacity:150%;
+    transition: 1.4s;
+    
 
 }
-.contactos{
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px;
-    
+.cuerpo li:hover{
+    border-color: black;
+    opacity: 1;
+    background:rgba(25, 157, 210, 0.789);
+    color: whitesmoke;
+    scale: 1.1;
 }
-.contactos img{
-    
-    width: 100%;
-}
-.contactos li{
-    display: inline-block;
+
+.cuerpo h2{
     text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 5px solid black;
-   border-radius: 10px;
-
-}
-
-.contactos li:hover{
-    border-color: blue;
-}
-.contactos li:active{
-    border-color: sienna;
-}
-.contactos h2{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
 }
-.contactos li:hover h2{
-    font-size: 33px;
+.cuerpo li:hover h2{
+    font-size: 22px;
 }
-.descripcion{
-    font-size: 18px;
+.cuerpo button{
+    background: rgb(19, 204, 149);
+    align-items: center;
+    color: black;
+    border-bottom: black;
+    border-radius: 10%;
+    text-align: center;
 }
 footer {
+    align-items: center;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+ 
 }
 
 .links {
